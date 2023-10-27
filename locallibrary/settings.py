@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-&psk#na5l=p3q8
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['https://web-production-4b67e.up.railway.app/', '127.0.0.1']
+ALLOWED_HOSTS = ['https://web-production-6d529.up.railway.app/', '127.0.0.1']
 
 
 # Application definition
@@ -164,7 +164,7 @@ STORAGES = {
 # The URL to use when referring to static files (where they will be served from)
 STATIC_URL = '/static/'
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-4b67e.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-6d529.up.railway.app/']
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
 
