@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct  2 16:06:58 2023
+
+@author: Nguyen Minh Triec
+"""
+
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}

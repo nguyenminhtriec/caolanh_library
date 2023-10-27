@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct  2 21:44:43 2023
+
+@author: Nguyen Minh Triec
+"""
+{#
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Author List</h1>
+  {% if author_list %}
+    <ul>
+      {% for author in author_list %}
+      <li>
+        <a href="{{ author.get_absolute_url }}">{{ author }}</a>
+        ({{author.date_of_birth}} - {{author.date_of_death}})
+      </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>There are no books in the library.</p>
+  {% endif %}
+{% endblock %}
+#}
